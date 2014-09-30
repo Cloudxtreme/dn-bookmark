@@ -1,0 +1,94 @@
+html {
+	position: relative;
+    min-height: 100%;
+}
+body {
+	@import url(http://fonts.googleapis.com/css?family=Lato);
+	margin: 0 0 40px; /* bottom = footer height */
+	padding: 0px;
+	background-color: #6441A5;
+	color: #262626;
+	font-family: 'Lato', sans-serif;
+	font-size: 11pt;
+	background-image: url('../img/Glitch.png');
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	min-height: 200px;
+}
+
+.datadiv {
+	margin-bottom: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 4px;
+	padding-right: 4px;
+	background-color: #B9A3E3;
+	width: 500px;
+	box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.33);
+}
+.datadiv:nth-child(odd) {
+	background-color: #a793cc;
+}
+.error{
+	font-weight: bold;
+	font-size: 15pt;
+	margin-bottom: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 4px;
+	padding-right: 4px;
+	background-color: #B9A3E3;
+	width: 500px;
+	text-align: center;
+	box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.33);
+	
+}
+.social {
+	font-weight: bold;
+	padding-left: 4px;
+	padding-right: 4px;
+	background-color: #B9A3E3;
+	width: 500px;
+	box-shadow: 0px -3px 5px -1px rgba(0,0,0,0.33);
+	height: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+a {
+	text-decoration: none;
+	color: #262626;
+	font-style: oblique;
+}
+a:hover {
+	color: #6441A5;
+}
+
+.remove:visited {
+	color: #262626;
+}
+.remove {
+	float: left;
+	margin-right: 4px;
+	background-image: url('../img/delete.png');
+	background-size: 70%;
+	width: 25px;
+	height: 25px;
+	margin-top: -4px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.version {
+	float: right;
+	height: 15px;
+}
+.small {
+	font-size: 09pt;
+}
+#help {
+	background-image: none;
+	background-color: #F1F1F1;
+	padding-left: 8px;
+}
