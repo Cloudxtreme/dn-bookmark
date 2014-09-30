@@ -12,7 +12,7 @@ $( document ).ready(function() {
 			}
 			$(".status").append('<div class="datadiv"><a href=""  class="remove" id="'+i+'"></a>'+DataStreamer+': <a href="'+DataURL+'" target="_Blank">'+DataTitle+' Time:'+DataTS+'</a></div>');
 		}
-		$(".datadiv").click(function() {
+		$(".remove").click(function() {
 			var index = $(this).attr("id");
 			data["Data"].splice(index, 1);
 				chrome.storage.sync.get(function(cfg) {
