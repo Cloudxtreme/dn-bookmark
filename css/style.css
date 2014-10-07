@@ -4,7 +4,7 @@ html {
 }
 body {
 	@import url(http://fonts.googleapis.com/css?family=Lato);
-	margin: 0 0 40px; /* bottom = footer height */
+	margin: 0 0 50px; /* bottom = footer height */
 	padding: 0px;
 	background-color: #6441A5;
 	color: #262626;
@@ -17,7 +17,6 @@ body {
 	background-position: center;
 	min-height: 200px;
 }
-
 .datadiv {
 	margin-bottom: 15px;
 	padding-top: 8px;
@@ -30,6 +29,16 @@ body {
 }
 .datadiv:nth-child(odd) {
 	background-color: #a793cc;
+}
+.backup {
+	margin-bottom: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 4px;
+	padding-right: 4px;
+	background-color: #B9A3E3;
+	width: 500px;
+	box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.33);
 }
 .error{
 	font-weight: bold;
@@ -52,10 +61,16 @@ body {
 	background-color: #B9A3E3;
 	width: 500px;
 	box-shadow: 0px -3px 5px -1px rgba(0,0,0,0.33);
-	height: 40px;
+	height: 50px;
     position: absolute;
     left: 0;
     bottom: 0;
+}
+.version {
+	font-size: 10pt !important;
+	background-color: #a793cc;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 a {
 	text-decoration: none;
@@ -65,7 +80,6 @@ a {
 a:hover {
 	color: #6441A5;
 }
-
 .remove:visited {
 	color: #262626;
 }
@@ -80,10 +94,6 @@ a:hover {
 	background-repeat: no-repeat;
 	background-position: right;
 }
-.version {
-	float: right;
-	height: 15px;
-}
 .small {
 	font-size: 09pt;
 }
@@ -91,4 +101,8 @@ a:hover {
 	background-image: none;
 	background-color: #F1F1F1;
 	padding-left: 8px;
+}
+.BackupExport {
+	width: 50%;
+	word-wrap:break-word;
 }
