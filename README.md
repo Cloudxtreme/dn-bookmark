@@ -1,6 +1,8 @@
 dn-bookmark
 ===========
 
+THIS IS NO LONGER MAINTAINED.
+
 A bookmark replacement system for Twitch.
 
 Download: https://chrome.google.com/webstore/detail/dn-bookmark/dcdjgcndpogpklnomjfpncdcjnafnpaa
